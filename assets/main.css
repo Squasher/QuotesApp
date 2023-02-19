@@ -1,0 +1,46 @@
+* {
+    font-family: "Righteous", cursive;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8822cc;
+    border-radius: 15px;
+}
+
+.selectable {
+    user-select: text !important;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #341f97;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+.content-wrapper {
+    height: 100%;
+    padding: 25px 0;
+}
+
+.content-wrapper .quote-card {
+    min-width: 100%;
+}
